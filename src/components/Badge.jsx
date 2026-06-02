@@ -1,0 +1,6 @@
+import React from 'react';
+
+
+export default function Badge({ caption }) {
+  return <span className="badge">{caption}</span>;
+}
